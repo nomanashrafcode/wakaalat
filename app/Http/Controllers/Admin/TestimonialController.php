@@ -135,6 +135,7 @@ class TestimonialController extends Controller
         $testimonial->designation=$request->designation;
         $testimonial->status=$request->status;
         $testimonial->show_homepage=$request->show_homepage;
+        $testimonial->description=$request->description;
         $testimonial->save();
 
         $notify_lang=NotificationText::all();

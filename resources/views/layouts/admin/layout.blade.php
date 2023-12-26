@@ -145,7 +145,7 @@
 
 
             <!-- Nav Item - Pages Collapse Menu -->
-            <li class="nav-item">
+            <!-- <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#page-setup-pages"
                     aria-expanded="true" aria-controls="page-setup-pages">
                     <i class="fas fa-fw fa-folder"></i>
@@ -182,9 +182,9 @@
 
                     </div>
                 </div>
-            </li>
+            </li> -->
             <!-- Nav Item - Pages Collapse Menu -->
-            <li class="nav-item">
+            <!-- <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#website-setup-pages"
                     aria-expanded="true" aria-controls="website-setup-pages">
                     <i class="fas fa-fw fa-folder"></i>
@@ -206,11 +206,11 @@
 
                     </div>
                 </div>
-            </li>
+            </li> -->
 
 
             <!-- Nav Item - Pages Collapse Menu -->
-            <li class="nav-item">
+            <!-- <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#home-section-2-pages"
                     aria-expanded="true" aria-controls="home-section-2-pages">
                     <i class="fas fa-fw fa-folder"></i>
@@ -236,10 +236,10 @@
 
                     </div>
                 </div>
-            </li>
+            </li> -->
 
 
-            <li class="nav-item">
+            <!-- <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#setting-pages"
                     aria-expanded="true" aria-controls="setting-pages">
                     <i class="fas fa-fw fa-folder"></i>
@@ -297,7 +297,7 @@
 
                     </div>
                 </div>
-            </li>
+            </li> -->
 
             @php
                 $admin=Auth::guard('admin')->user();

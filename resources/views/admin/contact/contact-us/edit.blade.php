@@ -70,7 +70,7 @@
                         </div>
 
 
-                        <button type="submit" class="btn btn-success">{{ $website_lang->where('lang_key','youtube')->first()->custom_lang }}</button>
+                        <button type="submit" class="btn btn-success">{{ $website_lang->where('lang_key','submit')->first()->custom_lang }}</button>
                     </form>
                 </div>
             </div>
